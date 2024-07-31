@@ -1,0 +1,134 @@
+
+body {
+  background-color: #F9FBF2;
+  background-image: url("profile/images/vecteezy_airplane-route-the-plane-hovered-on-the-dotted-line-travel_15510115.mp4");
+  font-family: 'Open Sans', sans-serif;;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+h1 {
+  color: #0E1C36;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  text-shadow: 1px 0.5px 1px #F9FBF2;
+}
+
+h2 {
+  color:#F9FBF2;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  background-color: #618985;
+  text-shadow: 1px 1px 2px #0E1C36;
+  border-radius: 5px;
+}
+
+h3 {
+  color: #618985;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+ul {
+  padding-inline-start: 40px;
+}
+a {
+color: #5e8884;
+font-size: 40px
+}
+
+a:hover {
+  color: #0E1C36 ;
+}
+
+:visited {
+  color: #5e8884;
+  font-size: 20px
+}
+
+.container {
+  width: 600px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+  text-align: center;
+}
+
+img{
+  vertical-align: middle;
+  margin: 10px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.white-background {
+  background: white;
+  padding: 30px;
+  border: 1px solid #5e8884;
+  border-radius: 5px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+button {
+  color: #5e8884;
+  background-color: #F9FBF2;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+}
+
+button:hover {
+  color: #5e8884;
+  background-color: #0E1C36;
+
+}
+
+@media (max-width: 960px) {
+.container {
+  width: 700px;
+}
+}
+
+@media (max-width: 720px) {
+/* For a screen < 720px, this CSS will be read */
+.container {
+  width: 500px;
+}
+}
+
+@media (max-width: 540px) {
+/* For a screen < 540px, this CSS will be read */
+.container {
+  width: 300px;
+}
+}
